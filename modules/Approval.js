@@ -32,7 +32,7 @@ export default class Approval extends Component {
           <img className="userApproval" src={this.state.image}></img>
         </div>
         <div id="nameShake">
-          <p>Jon</p>
+          <p>Phillip</p>
           <p>Tarzan</p>
         </div>
         <img id="handShake" src="./assets/agreement.svg"></img>

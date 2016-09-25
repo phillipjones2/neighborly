@@ -7,9 +7,6 @@ body
 #app
   height 100%
 
-// .appDiv
-//   height 100%
-
 .nav
   display flex
   justify-content space-between
@@ -41,14 +38,9 @@ body
   justify-content: space-between;
   padding 10px
   margin-bottom 15px
-  // background #334e5c
-
 
 .home img
   height 45px
-  // border 1px solid blue
-  // padding 15px
-  // border-radius 14px
 
 .home img a
   height 45px
@@ -60,41 +52,11 @@ body
   line-height: 1.20
   margin-top 10px
 
-#more1
-  // position absolute
-  // top 400px
-  // left 30px
-  // border-radius 14px
-  // transform rotate(-25deg)
-
-// #car
-//   position absolute
-//   top 305px
-//   left 430px
-//   transform rotate(0deg)
-
 .active img
-  transform scale(1.2)
-
-
-// #mother
-//   position absolute
-//   top 330px
-//   left 220px
-//   transform rotate(-15deg)
-//
-// #vote
-//   position absolute
-//   top 330px
-//   left 630px
-//   transform rotate(15deg)
-//
-//
-// #more2
-//   position absolute
-//   top 400px
-//   left 830px
-  // transform rotate(25deg)
+  transform scale(1.3)
+  background yellow
+  border-radius: 15px
+  padding 0 5px
 
 .logo
   height 100%
@@ -122,8 +84,6 @@ body
   height 50px
   transform rotate(90deg)
   z-index 50
-// .streams
-//   height 100%
 
 .streams img
   border none
@@ -173,14 +133,18 @@ body
   font-size 2.6rem
 
 .contract img, .approval img, .status img
-  height 50px
+  height 80px
   margin 15px auto
+  padding-bottom: 10px
 
 .contract ul
   list-style: none
+  :first-child
+    margin-top: 15px
 
 .contract ul li
   font-size 1.8rem
+  padding-bottom 15px
 
 .contract #filter, .approval #filter, .status #filter
   display none
@@ -190,11 +154,10 @@ body
   flex-direction: row;
   justify-content: space-between;
 
-
 #userShake .userApproval
   height 100px
 
-#handShake
+#handShake, #like
   height 130px
 
 .approval #nameShake p
