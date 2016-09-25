@@ -15,11 +15,11 @@ export default class Approval extends Component {
       this.setState({
         image: "./assets/userYes.svg"
       })
-    }, 1500);
+    }, 10000);
 
     setTimeout(() => {
       browserHistory.push('/status')
-    }, 4000)
+    }, 15000)
   }
 
   render() {
