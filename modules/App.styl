@@ -145,14 +145,14 @@ body
     background none
     width 44px
 
-.contract
+.contract, .approval
   text-align: center;
   padding 0 15px
 
-.contract h1
+.contract h1, .approval h1
   font-size 2.6rem
 
-.contract img
+.contract img, .approval img
   height 50px
   margin 15px auto
 
@@ -164,3 +164,19 @@ body
 
 .contract #filter, .approval #filter, .status #filter
   display none
+
+.approval #userShake, .approval #nameShake
+  display flex
+  flex-direction: row;
+  justify-content: space-between;
+
+
+#userShake .userApproval
+  height 100px
+
+#handShake
+  height 200px
+
+.approval #nameShake p
+  font-size: 2rem
+  width: 80%
