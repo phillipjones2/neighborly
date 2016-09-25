@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
+import { browserHistory, Link } from 'react-router'
 import Footer from './Footer'
 
 export default class Approval extends Component {
@@ -9,13 +9,19 @@ export default class Approval extends Component {
       image: "./assets/userWait.svg"
     }
   }
+
   componentDidMount(){
-    setTimeout(function () {
-      this.setState({image:"./assets/userYes.svg"},() => {
-        alert('hahl')
+    setTimeout(() => {
+      this.setState({
+        image: "./assets/userYes.svg"
       })
-    }, 2000);
+    }, 1500);
+
+    setTimeout(() => {
+      browserHistory.push('/status')
+    }, 4000)
   }
+
   render() {
     return (
       <div  className="approval">

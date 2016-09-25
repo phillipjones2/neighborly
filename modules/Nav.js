@@ -9,7 +9,7 @@ export default class Nav extends Component {
     return (
       <div className="nav">
         <img src="./assets/user.svg"></img>
-        <h1>Neighbor.ly</h1>
+        <h1>neighbor<span id="ly">.ly</span></h1>
         <img src="./assets/settings.svg"></img>
       </div>
     )
