@@ -14,6 +14,7 @@ export default class Approval extends Component {
     setTimeout(() => {
       this.setState({
         image: "./assets/userYes.svg"
+        
       })
     }, 10000);
 
