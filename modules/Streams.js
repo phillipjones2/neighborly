@@ -21,13 +21,13 @@ export default class Streams extends Component {
             <li>Carpool: m - f 9am</li>
             <li>Rent bike: 10 - 12pm</li>
             <li>Ride: now</li>
-            <li>Carpool: m - f 9am</li>
+            <li>Carpool: sat 7am</li>
             <li>Rent bike: 10 - 12pm</li>
             <li>Rent Motorcycle: 3 - 6pm</li>
             <li>Rent Car: 6 - 9pm</li>
             <li>Ride: now</li>
             <li>Carpool: m - f 9am</li>
-            <li>Rent bike: 10 - 12pm</li>
+            <li>Blockchain + sharing = neighbor.ly</li>
           </ul>
         </div>
         <div id="filterDiv">
