@@ -21,6 +21,14 @@ export default class Streams extends Component {
             <li>Ride: now</li>
             <li>Carpool: m - f 9am</li>
             <li>Rent bike: 10 - 12pm</li>
+            <li>Ride: now</li>
+            <li>Carpool: m - f 9am</li>
+            <li>Rent bike: 10 - 12pm</li>
+            <li>Rent Motorcycle: 3 - 6pm</li>
+            <li>Rent Car: 6 - 9pm</li>
+            <li>Ride: now</li>
+            <li>Carpool: m - f 9am</li>
+            <li>Rent bike: 10 - 12pm</li>
           </ul>
         </div>
         <Footer/>
