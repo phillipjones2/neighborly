@@ -9,7 +9,7 @@ export default class Home extends Component {
     return (
       <div  className="home">
         <div id="homeImg">
-          <img id="more1" src="./assets/more.svg"></img>    
+          <img id="more1" src="./assets/more.svg"></img>
           <img id="mother" src="./assets/motherhood.svg"></img>
           <Link to="/streams" activeClassName="active" ><img id="car" src="./assets/car.svg"></img></Link>
           <img id="vote" src="./assets/vote.svg"></img>
